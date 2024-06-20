@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container{
+    width: 800px;
+    margin-top: 50px;
+}
+
+.black-text{
+    color: black;
+}
+
+.red-text{
+    color: red;
+}
+
+span{
+    width: 50px;
+    background-color: lightgrey;
+    padding: 5px 10px;
+    font-size: 30px;
+}
