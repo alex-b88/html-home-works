@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFFED3;
+}
+
+.container{
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.figure{
+    width: 100px;
+    height: 100px;
+    background-color: #BBE9FF;
+    transition: 0.5s;
+}
+
+.figure:hover{
+    border-radius: 50%;
+    background-color: #B1AFFF;
+    transition: 0.5s;
+}
