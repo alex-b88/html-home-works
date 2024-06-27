@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 120px;
+    font-weight: bold;
+    margin-top: 9vh;
+}
+
+.content{
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.card{
+    width: 250px;
+    height: 250px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 5px 6px 10px 0 rgba(0,0,0,0.75);
+    -webkit-box-shadow: 5px 6px 10px 0 rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 6px 10px 0 rgba(0,0,0,0.75);
+    border: rgba(75, 9, 138, 0.58) 2px solid;
+}
+
+#black{
+    color: white;
+    background-color: #000000;
+}
+
+#red{
+    color: white;
+    background-color: #FF0000;
+}
+
+#green{
+    color: white;
+    background-color: #00FF00;
+}
+
+#blue{
+    color: white;
+    background-color: #0000FF;
+}
+
+#fuchsia{
+    color: white;
+    background-color: #FF00FF;
+}
+
+#white{
+    color: black;
+    background-color: #FFFFFF;
+}
+
+#yellow{
+    color: black;
+    background-color: #FFFF00;
+}
+
+#purple{
+    color: white;
+    background-color: #800080;
+}
+
+#maroon{
+    color: white;
+    background-color: #800000;
+}
+
+#olive{
+    color: white;
+    background-color: #808000;
+}
