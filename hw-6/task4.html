@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 4</title>
+    <style>
+        *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+
+        header, footer, .block-1, .block-2, .block-3, .spam-1, .spam-2{
+          text-align: center;
+          align-content: center;
+        }
+
+        header, footer{
+          height: 22vh;
+        }
+        header{
+          background: #8D8484;
+        }
+
+        header span, footer span{
+          font-size: 50px;
+          text-decoration: none;
+          letter-spacing: 3px;
+        }
+        footer{
+          background: #BDBDBD;
+        }
+        main{
+          height: 56vh;
+          display: flex;
+          color: white;
+          font-size: 25px;
+        }
+        .content{
+          width: 73vw;
+          display: flex;
+          flex-direction: column;
+        }
+        aside{
+          width: 27vw;
+          display: flex;
+          flex-direction: column;
+        }
+
+        .block-1{
+          height: 35%;
+          background: #776969;
+        }
+        .block-2{
+          height: 34%;
+          background: #643030;
+        }
+        .block-3{
+          height: 31%;
+          background: #441818;
+        }
+        .spam-1, .spam-2{
+          height: 50%;
+        }
+        .spam-1{
+          background: #937575;
+        }
+        .spam-2{
+          background: #644C4C;
+        }
+    </style>
+</head>
+<body>
+    <header>
+      <span>Header</span>
+    </header>
+    <main>
+      <div class="content">
+          <div class="block-1"><span>Content-1</span></div>
+          <div class="block-2"><span>Content-1</span></div>
+          <div class="block-3"><span>Content-1</span></div>
+      </div>
+      <aside>
+          <div class="spam-1"><span>spam-1</span></div>
+          <div class="spam-2"><span>spam-2</span></div>
+      </aside>
+    </main>
+    <footer>
+        <span>footer</span>
+    </footer>
+</body>
+</html>
