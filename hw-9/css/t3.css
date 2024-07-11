@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #7fbee7;
+}
+
+.container{
+    width: 300px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-head{
+    width: 300px;
+    border-radius: 3px 3px 0 0;
+    background-color: #f4f4f4;
+    padding: 15px 0 15px 12px;
+    border-top: 1px solid rgba(105, 105, 105, 0.62);
+    border-right: 1px solid rgba(105, 105, 105, 0.62);
+    border-left: 1px solid rgba(105, 105, 105, 0.62);
+}
+
+.form-head h3{
+    display: inline-block;
+    font-size: 18px;
+}
+
+.form-head span{
+    color: rgba(128, 128, 128, 0.44);
+    font-size: 18px;
+}
+
+form{
+    padding: 10px 14px 15px 15px;
+    width: 300px;
+    /*border: 1px solid rgba(105, 105, 105, 0.62);*/
+    border-right: 1px solid rgba(105, 105, 105, 0.62);
+    border-bottom: 1px solid rgba(105, 105, 105, 0.62);
+    border-left: 1px solid rgba(105, 105, 105, 0.62);
+    border-top: 1px solid rgba(105, 105, 105, 0.51);
+    background-color: #f4f4f4;
+    border-radius: 0 0 3px 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 6px;
+}
+
+form input{
+    width: 270px;
+    height: 27px;
+    padding-left: 3px;
+    color: lightgrey;
+    border-radius: 3px;
+    border: 1px solid lightgrey;
+}
+form input::placeholder{
+    color: lightgrey;
+}
+
+form input:focus{
+    outline: none;
+}
+
+form input[type="submit"]{
+    width: 150px;
+    height: 35px;
+    margin-top: 8px;
+    padding: 5px 10px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 4px;
+    color: black;
+}
+
+form input[type="submit"]:active{
+    border: 2px solid rgba(255, 165, 0, 0.72);
+}
