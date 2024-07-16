@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 800px;
+    margin: 200px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 132px;
+}
+
+.card{
+    width: 319px;
+    height: 492px;
+    flex-shrink: 0;
+    position: relative;
+    border: 4px solid #554C4C;
+    background: rgba(217, 217, 217, 0.30);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .card:nth-child(2), .container .card:nth-child(2) .logo{
+    border: 4px solid #65856E;
+    background: rgba(217, 217, 217, 0.30);
+}
+
+.card h2{
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card p{
+    width: 257px;
+    color: #000;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card .logo{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50px;
+    background-color: white;
+    top: -55px;
+    border: 4px solid #554C4C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .card:nth-child(2) .logo{
+    background-color: white;
+}
+
+.logo img{
+    width: 60px;
+    height: 60px;
+}
