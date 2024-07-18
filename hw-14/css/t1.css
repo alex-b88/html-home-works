@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    background: #F7F6F4;
+}
+
+header, section{
+    width: 1110px;
+    margin: 0 auto;
+}
+
+header>img{
+    width: 178px;
+    height: 22px;
+    flex-shrink: 0;
+    margin: 42px 186px 0 0;
+}
+
+nav{
+    display: inline-block;
+}
+
+nav>ul>li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 40px;
+    position: relative;
+}
+
+nav>ul>li a{
+    text-decoration: none;
+    color: #333;
+    font-family: Taviraj, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+
+.drop-menu{
+    display: none;
+    padding: 15px 41px 23px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    background: rgba(255, 255, 255, 0.70);
+    position: absolute;
+    top: 35px;
+    left: -20px;
+}
+
+nav>ul>li:nth-child(3):hover .drop-menu{
+    display: block;
+    background: rgba(255, 255, 255, 0.70);
+}
+
+.drop-menu li{
+    list-style: none;
+}
+
+.drop-menu a:hover{
+    color: #F1DDC9;
+}
+
+
+.drop-menu a{
+    text-decoration: none;
+    color: #333;
+    font-family: Taviraj, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+
+section{
+    margin-top: 90px;
+}
+
+.slider{
+    width: 1110px;
+    height: 505px;
+    flex-shrink: 0;
+    background: #F1DDC9;
+    display: flex;
+}
+
+.slider>img{
+    width: 325px;
+    height: 467px;
+    flex-shrink: 0;
+    margin: 14px 56px 24px 1px;
+}
+
+.slider-info{
+    width: 529px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.slider-info h2{
+    margin-top: 56px;
+    color: #333;
+    font-family: Taviraj, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px; /* 133.333% */
+    letter-spacing: 1.2px;
+}
+
+.slider-info>p{
+    margin-top: 32px;
+    width: 529px;
+    color: #333;
+    font-family: Nunito, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+
+.slider-info>button{
+    width: 208px;
+    height: 62px;
+    margin-top: 53px;
+    flex-shrink: 0;
+    background: #D84727;
+    color: #FFF;
+    font-family: Taviraj, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    border: none;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+section>h3{
+    color: #333;
+    font-family: Taviraj, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+}
+
+section>h3:first-of-type{
+    padding-top: 79px;
+}
+
+.shop{
+    margin-top: 129px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.card{
+    width: 255px;
+    height: 278px;
+    flex-shrink: 0;
+    background: #FFF;
+    position: relative;
+}
+
+.card img{
+    position: absolute;
+    top: -40px;
+    left: 20px;
+    width: 221px;
+    height: 221px;
+    flex-shrink: 0;
+}
+
+.card>p{
+    color: #333;
+    font-family: Taviraj, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 133.333% */
+    position: absolute;
+    top: 213px;
+    left: 24px;
+}
+
+section>h3:last-of-type{
+    margin-top: 132px;
+}
+
+.recent-news{
+    display: flex;
+    gap: 55px;
+    margin-bottom: 50px;
+}
+
+.title-info{
+}
+
+.title-info>p:first-child{
+    margin-top: 181px;
+    color: #777;
+    font-family: Taviraj, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 0.4px;
+}
+
+.title-info>p:nth-child(2){
+    width: 350px;
+    margin-top: 16px;
+    color: #333;
+    font-family: Taviraj, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 133.333% */
+    letter-spacing: 0.72px;
+}
+
+.recent-news>img{
+    width: 627px;
+    height: 520px;
+    flex-shrink: 0;
+    margin-top: 45px;
+}
