@@ -1,0 +1,29 @@
+@media screen and (max-width: 480px){
+    header ul{
+        flex-direction: column;
+    }
+    header li{
+        padding: 5px 0;
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .banner, .article{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner p, .article p{
+        margin: 0;
+    }
+
+    .articles-container-1, .articles-container-2{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .article{
+        width: 100%;
+    }
+}

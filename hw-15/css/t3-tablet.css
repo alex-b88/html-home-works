@@ -1,0 +1,29 @@
+@media screen and (min-width: 480px) and  (max-width: 1000px){
+    .articles{
+        flex-direction: row;
+        gap: 4px;
+    }
+    .articles-container-1, .articles-container-2{
+        width: 49.5%;
+    }
+
+    .article{
+        width: 49.5%;
+        height: 350px;
+        /*padding-top: 35px;*/
+        display: block;
+        position: relative;
+    }
+
+    .article p{
+        margin: 0 0 0 0;
+        transform: rotate(-90deg);
+        width: 155px;
+        height: 55px;
+        text-align: unset;
+        position: absolute;
+        top: 50px;
+        right: -50px;
+    }
+
+}
