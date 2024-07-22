@@ -1,0 +1,32 @@
+@media screen and (max-width: 480px) {
+    main{
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+    header{
+        height: 100px;
+    }
+    .content, aside{
+        width: 100%;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    aside{
+        height: 90px;
+    }
+
+    .block-b{
+        margin-bottom: 0;
+    }
+    .card{
+        width: 100px;
+        height: 100px;
+
+    }
+}

@@ -1,0 +1,15 @@
+@media screen and (max-width: 480px){
+    main{
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+
+    .block-a, .block-b{
+        width: 95vw;
+    }
+
+    .block-b{
+        height: 100px;
+    }
+}
