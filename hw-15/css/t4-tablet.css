@@ -1,0 +1,20 @@
+@media screen and (min-width: 480px) and  (max-width: 1150px){
+    main{
+        width: 95vw;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .you-tube-video, .content{
+        width: 100%;
+    }
+    .you-tube-video{
+        display: flex;
+        justify-content: center;
+    }
+
+    .you-tube-video iframe{
+        width: 100%;
+        height: 450px;
+    }
+}

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+
+main{
+    width: 98vw;
+    margin: 64px auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.content>div{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.content>div button{
+    display: flex;
+    padding: 8px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #FF9500;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 25.2px */
+    border: none;
+    cursor: pointer;
+}
+
+.content>div a{
+    color: #6F1DF4;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 25.2px */
+}
+
+.content h3{
+    color: #000;
+    font-size: 4em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 76.8px */
+}
+
+.content>ul{
+    margin-left: 24px;
+}
+.content>ul li{
+    color: #3C3C43;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 33.6px */
+}
+
+.content>button{
+    display: flex;
+    height: 56px;
+    padding: 0 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: #6F1DF4;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 19.2px */
+    border: none;
+    cursor: pointer;
+}
