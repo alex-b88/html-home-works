@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    width: 100vw;
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 1140px;
+    padding-top: 144px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px
+}
+
+h1{
+    align-self: stretch;
+    color: #FFF;
+    text-align: center;
+
+    /* Large title/2 strong */
+    font-size: 4em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 76.8px */
+}
+
+main>p{
+    /*align-self: stretch;*/
+    color: #FFF;
+    text-align: center;
+    font-size: 1.125em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+}
+
+.buttons{
+    height: 200px;
+    padding-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 56px;
+}
+
+.buttons>button{
+    width: 191px;
+    display: flex;
+    height: 64px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #000;
+    text-align: center;
+    /* Text/3 strong */
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 19.2px */
+    border-radius: 32px;
+    background: #FFF;
+    border: none;
+    cursor: pointer;
+}
+
+.watch{
+    /*width: 50%;*/
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+}
+
+.watch img{
+    width: 16px;
+    height: 16px;
+}
+
+.watch>p{
+    color: #FFF;
+    text-align: center;
+    /* Text/3 strong */
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 19.2px */
+}

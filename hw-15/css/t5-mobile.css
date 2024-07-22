@@ -1,0 +1,27 @@
+@media screen and (max-width: 480px){
+    main{
+        gap: 18px;
+    }
+    h1{
+        font-size: 1.18em;
+    }
+    main>p{
+        width: 343px;
+        font-size: 1.0175em;
+    }
+    .buttons{
+        width: 100%;
+        margin-top: 14px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px
+    }
+    .watch{
+        width: 100%;
+        align-content: center;
+    }
+    .buttons>button{
+        width: 131px;
+    }
+}

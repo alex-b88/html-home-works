@@ -1,0 +1,17 @@
+@media screen and (min-width: 480px) and  (max-width: 1150px) {
+    main{
+        gap: 35px;
+    }
+    h1{
+        font-size: 2em;
+    }
+    main>p{
+        width: 70%;
+    }
+    .buttons{
+        margin-top: -5px;
+    }
+    .buttons>button{
+        width: 131px;
+    }
+}
