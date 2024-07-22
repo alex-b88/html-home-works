@@ -1,0 +1,9 @@
+@media screen and (max-width: 480px){
+    body{
+        grid-template-areas:
+        'header header header header'
+        'main main main main'
+        'blog blog blog blog'
+        'aside aside aside aside';
+    }
+}
