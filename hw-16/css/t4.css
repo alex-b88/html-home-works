@@ -35,6 +35,22 @@ main{
     grid-area: blog;
 }
 
+.blog-1{
+    grid-area: blog-1;
+}
+.blog-2{
+    grid-area: blog-2;
+}
+.blog-3{
+    grid-area: blog-3;
+}
+.blog-4{
+    grid-area: blog-4;
+}
+.blog-5{
+    grid-area: blog-5;
+}
+
 footer{
     grid-area: footer;
 }
