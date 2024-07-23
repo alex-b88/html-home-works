@@ -1,0 +1,19 @@
+@media screen and (max-width: 480px){
+    body{
+        grid-template-columns: 1fr;
+        /*grid-template-rows: repeat(3, 1fr);*/
+        grid-template-rows: 15% 70% 15%;
+        grid-template-areas:
+        'header header'
+        'main'
+        'footer';
+    }
+    main{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+        'blog-1'
+        'blog-2'
+        'blog-3';
+    }
+}
